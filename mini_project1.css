@@ -1,0 +1,119 @@
+body {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: block;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-container>a {
+
+    width: 75px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 20%;
+}
+ #header>a {
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: black;
+} 
+#consult {
+border: 1px solid red;
+border-radius: 5px;
+background-color: red;
+color: white;
+line-height: normal;
+font-size: 9px;
+padding: 10px 0;
+margin: 10px 0px 10px 0px; 
+}
+
+#main-container {
+    width: 100%;
+    height: 450px;
+    background: url(my_image.png) no-repeat center;
+    background-size: cover;
+}
+.middle-container {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    width: 50%;
+    height: 150px;
+    align-items: center;
+    
+
+}
+#red_head {
+color: red;
+}
+
+#my-name{
+    font-family: 'Times New Roman', Times, serif;
+}
+.middle-container>div {
+    text-align: left;
+    margin: 10px;
+    width: 50%;
+}
+.btn-div{
+    display: flex;
+    width: 25%;
+    align-self: center;
+    flex-direction: row;
+}
+
+.rbtn-design>a {
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+    border: 1px solid red;
+    padding: 8px;
+    background: red;
+    font-size: 10px;   
+}
+
+.wbtn-design>a {
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+    border: 1px solid whitesmoke;
+    padding: 8px;
+    background: whitesmoke;
+    font-size: 10px;
+}
+
+.footer-container {
+    text-align: left;
+    display: flex; 
+    flex-direction: row;
+    width: 80%;
+    height: 320px;
+    align-items: flex-end;
+    justify-content: space-evenly;
+
+}
+
+.footer-container>p {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px 0px;
+    flex: 0 0 230px;
+    padding: 10px;
+    font-size: 18px;
+}
